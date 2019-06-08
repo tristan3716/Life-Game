@@ -12,9 +12,8 @@ lifegame.stdscr = curses.initscr()
 curses.curs_set(0)
 
 while True:
-    next_board = lifegame.run_life_game(cur_board)
-    lifegame.print_board(next_board)
-    cur_board = next_board
+    lifegame.print_board(cur_board)
+    cur_board = lifegame.run_life_game(cur_board)
 
     curses.napms(time)
     time_integration += time
