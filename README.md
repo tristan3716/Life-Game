@@ -11,14 +11,16 @@ while True:
     print_board(board)
     board = get_next_board(board)
     
-    sleep(500ms)
+    sleep(500)
     if elapsed_time > 10000:
         break
 ```
 
 lifegame.py execution logic 
-get_next_board (run_life_game)
+
+get_next_board
 ```python
+def run_life_game(board):
     for x:
         for y:
             add_all_near_valid_cell_to_list()
