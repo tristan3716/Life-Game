@@ -25,5 +25,5 @@ def run_life_game(board):  # get_next_board
             count_living_cell_from_list()
             check_next_cell_status()
 
-    return board_cp
+    return board
 ```
