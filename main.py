@@ -1,8 +1,7 @@
 import sys
-
-import lifegame
 import os
 import curses
+import lifegame
 
 data = lifegame.load()
 cur_board = lifegame.set_board(data)
