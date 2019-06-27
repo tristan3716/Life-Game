@@ -18,7 +18,7 @@ while True:
 
 lifegame.py execution logic 
 ```python
-def run_life_game(board):  # get_next_board
+def get_next_board(board):
     for x:
         for y:
             add_all_near_valid_cell_to_list()
